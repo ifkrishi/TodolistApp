@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //MongoDB CONNECTING
-mongoose.connect('mongodb+srv://ifkrishi:Krishiagrawal2002@mongodbyoutube.2hncw3u.mongodb.net/todolistDB').then(() => console.log('Connected!'));
+mongoose.connect('mongodb+srv://ifkrishi:xlNgDxt43evUZlrf@mongodbyoutube.2hncw3u.mongodb.net/todolistDB').then(() => console.log('Connected!'));
 
 const itemSchema = new mongoose.Schema({
   name: {
